@@ -8,6 +8,7 @@
     "Earthenworks.Translation Tool.Pick Slot.Title": "Pick a slot to translate",
     "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "Drop Object Root Slot Here",
     "Earthenworks.Translation Tool.Pick Slot.Default Locale Title": "Default Locale",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Show Driven Fields": "Show Driven Fields",
     "Earthenworks.Translation Tool.Pick Slot.Install Translator Button": "Install Translator",
     "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "No object selected to translate",
     "Earthenworks.Translation Tool.Pick Slot.Status.Translator Not Installed": "Object does not have a translator installed.",
