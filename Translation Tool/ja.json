@@ -1,31 +1,34 @@
 {
   "localeCode": "ja",
   "authors": [
-    "Rabbuttz"
+    "Rabbuttz", "kazu"
   ],
   "messages": {
-    "Earthenworks.Translation Tool.Title": "Earthenworks翻訳ツール",
+    "Earthenworks.Translation Tool.Title": "翻訳ツール",
     "Earthenworks.Translation Tool.Pick Slot.Title": "翻訳するスロットを選択",
-    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "ここにオブジェクトのRootSlotを入れてください。",
+    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "<i>ここにオブジェクトのRootSlotを入れてください。</i>",
     "Earthenworks.Translation Tool.Pick Slot.Default Locale Title": "デフォルトのロケール",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Show Driven Fields": "ドライブされているフィールドを表示",
     "Earthenworks.Translation Tool.Pick Slot.Install Translator Button": "翻訳機をインストール",
     "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "翻訳するオブジェクトが選択されていません。",
     "Earthenworks.Translation Tool.Pick Slot.Status.Translator Not Installed": "オブジェクトに翻訳機がインストールされていません。",
     "Earthenworks.Translation Tool.Pick Slot.Status.Translator Status": "{0} 個のフィールドがバインドされました。<br>{1} 個のロケールがインストールされました。",
     "Earthenworks.Translation Tool.Bind Fields.Title": "翻訳するフィールドを命名・ドライブ",
     "Earthenworks.Translation Tool.Bind Fields.Status.No Slot Selected": "フィールドをバインドするために翻訳をインストールするスロットを選択してください。",
-    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "バインドするために翻訳するstringフィールドを入れてください。",
-    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "この名前は名前空間に含まれない有効なDynamicVariableNameでなければなりません（記号を使わないでください）。",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "Inspector(インスペクタ)の文字列フィールドをリンクアイコンにドラッグ＆ドロップすると、リンクアイコンがドライブされます。",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "このラベルは名前空間に含まれない有効なDynamicVariableNameでなければなりません（記号を使わないでください）。",
     "Earthenworks.Translation Tool.Bind Fields.Status.Duplicate Bind Label": "他の翻訳がすでにそのラベルを使用しています。",
     "Earthenworks.Translation Tool.Bind Fields.Status.Binding": "フィールドをバインド中です。しばらくお待ちください…",
     "Earthenworks.Translation Tool.Bind Fields.Status.No Label Null Text": "<sup><i>翻訳の名前をここに入力してください。</i></sup>",
     "Earthenworks.Translation Tool.Export.Title": "テンプレートを翻訳ツールにエクスポート",
-    "Earthenworks.Translation Tool.Export.Button": "現在またはテンプレートの翻訳文をエクスポート<br><sup>Webアクセスが必要です。</sup>",
+    "Earthenworks.Translation Tool.Export.Button": "現在またはテンプレートの翻訳文をエクスポート<br><sup>Webリクエストが必要です。</sup>",
     "Earthenworks.Translation Tool.Export.Field Null Text": "ここからテンプレートをコピーしてください。",
     "Earthenworks.Translation Tool.Export.Instructions": "翻訳文をエクスポートします。<br>全選択するにはダブルクリックをしてください。",
     "Earthenworks.Translation Tool.Import.Title": "翻訳機から翻訳をインポート",
     "Earthenworks.Translation Tool.Import.Instructions": "翻訳文をペーストしてください。<br>テキストの形式が間違っている場合、何も起きません。",
-    "Earthenworks.Translation Tool.Import.Button": "翻訳文をインポート<br><sup>Webアクセスが必要です。</sup>",
-    "Earthenworks.Translation Tool.Import.Field Null Text": "入力された翻訳文をペーストしてください。"
+    "Earthenworks.Translation Tool.Import.Button": "翻訳文をインポート<br><sup>Webリクエストが必要です。</sup>",
+    "Earthenworks.Translation Tool.Import.Field Null Text": "入力された翻訳文をペーストしてください。",
+    "Earthenworks.Translation Tool.Help.Title": "使用方法",
+    "Earthenworks.Translation Tool.Help.Body": "翻訳したいオブジェクトのルートのインスペクタを開きます。\n\nルートスロットをツールに設定し、必要に応じて翻訳機をインストールします。\n\nオブジェクトのデフォルトの言語が、オブジェクトのオリジナル言語と一致していることを確認します。\n\nすべてのフィールドにラベルを付け、翻訳してドライブします。\n\n<i>ドライブされているフィールドを表示</i>を使って、まだ適用させていないフィールドを見つけます。\n\nドライブするフィールドを変更するには、同じラベルのダイナミック変数を:\n<b>  <i>ルート</i>\n   Translator\n   Translation Tables\n  <i>から探して更新してください</i></b>"
   }
 }
