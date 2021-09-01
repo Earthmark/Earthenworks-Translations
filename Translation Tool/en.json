@@ -4,21 +4,22 @@
     "Earthmark"
   ],
   "messages": {
-    "Earthenworks.Translation Tool.Title": "Earthenworks Translation Tool",
-    "Earthenworks.Translation Tool.Pick Slot.Title": "Pick a slot to translate",
-    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "Drop Object Root Slot Here",
+    "Earthenworks.Translation Tool.Title": "Localization Tool",
+    "Earthenworks.Translation Tool.Pick Slot.Title": "Pick a slot to localize",
+    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "<i>Drop object root slot here</i>",
     "Earthenworks.Translation Tool.Pick Slot.Default Locale Title": "Default Locale",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Show Driven Fields": "Show Driven Fields",
     "Earthenworks.Translation Tool.Pick Slot.Install Translator Button": "Install Translator",
-    "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "No object selected to translate",
+    "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "No object selected to localize",
     "Earthenworks.Translation Tool.Pick Slot.Status.Translator Not Installed": "Object does not have a translator installed.",
     "Earthenworks.Translation Tool.Pick Slot.Status.Translator Status": "{0} field(s) bound<br>{1} installed locales",
     "Earthenworks.Translation Tool.Bind Fields.Title": "Label and drive string fields in the object",
-    "Earthenworks.Translation Tool.Bind Fields.Status.No Slot Selected": "Pick a slot to translate and install a translator to begin binding fields to be translated.",
-    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "Drop a string field onto the label above to drive the field.",
-    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "The name must be a valid un-namespaced dynamic variable name (avoid symbols)",
-    "Earthenworks.Translation Tool.Bind Fields.Status.Duplicate Bind Label": "Another translation already uses that label",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Slot Selected": "Pick a slot to localize and install a translator to begin binding fields to be translated.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "Drag and drop a string field from an inspector onto the link icon to drive it.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "The label must be a valid un-namespaced dynamic variable name (avoid symbols)",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Duplicate Bind Label": "Another field already uses that label",
     "Earthenworks.Translation Tool.Bind Fields.Status.Binding": "Field bound! Preparing to bind another...",
-    "Earthenworks.Translation Tool.Bind Fields.Status.No Label Null Text": "<sup><i>Type label of a field to translate here.</i></sup>",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Label Null Text": "<i>Type label identifying a field to localize here.<br>Ex: Object Name.Main Menu.Title</i>",
     "Earthenworks.Translation Tool.Export.Title": "Export locale document",
     "Earthenworks.Translation Tool.Export.Button": "Export Current Locale<br><sup>Web Request Required</sup>",
     "Earthenworks.Translation Tool.Export.Field Null Text": "Copy Template From Here",
@@ -26,6 +27,8 @@
     "Earthenworks.Translation Tool.Import.Title": "Import locale from document",
     "Earthenworks.Translation Tool.Import.Instructions": "Paste the entire document<br>Malformed documents are ignored.",
     "Earthenworks.Translation Tool.Import.Button": "Import Locale<br><sup>Web Request Required</sup>",
-    "Earthenworks.Translation Tool.Import.Field Null Text": "Paste Filled Out Translation Document"
+    "Earthenworks.Translation Tool.Import.Field Null Text": "Paste Filled Out Translation Document",
+    "Earthenworks.Translation Tool.Help.Title": "Instructions",
+    "Earthenworks.Translation Tool.Help.Body": "Open an inspector of the root of the object to be localized.\n\nDrop the root slot into the tool and install a translator if needed.\n\nVerify the default object locale matches the original language of the object.\n\nLabel and drive every field to be localized.\n\nUse <i>Show Driven Fields</i> to find missed fields.\n\nTo modify a driven field update the dynamic variable with the same label in:\n<b>  <i>Object Root</i>\n    Translator\n      Translation Tables\n        <i>Locale to update</i></b>"
   }
 }
