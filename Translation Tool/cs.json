@@ -1,0 +1,34 @@
+{
+  "localeCode": "cs",
+  "authors": [
+    "rampa_3"
+  ],
+  "messages": {
+    "Earthenworks.Translation Tool.Title": "Lokalizační nástroj",
+    "Earthenworks.Translation Tool.Pick Slot.Title": "Vyberte slot k lokalizaci",
+    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "<i>Zde upusťte object root slot</i>",
+    "Earthenworks.Translation Tool.Pick Slot.Default Locale Title": "Výchozí lokalizace",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Show Driven Fields": "Zobrazit driveovaná pole",
+    "Earthenworks.Translation Tool.Pick Slot.Install Translator Button": "Instalovat překladač",
+    "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "Žádný objekt k lokalizaci",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Translator Not Installed": "Objekt nemá nainstalován překladač.",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Translator Status": "{0} pol(e)/(í) navázáno<br>{1} instalovaných lokalizací",
+    "Earthenworks.Translation Tool.Bind Fields.Title": "Popište a driveujte stringová pole v objektu",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Slot Selected": "Vyberte slot k lokalizaci a nainstalujte překladač, aby jste mohli začít navazovat pole k překladu.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "Přetáhněte a upusťte stringové pole z inspektoru na ikonu řetězu, aby jste jej driveovali.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "Popisek musí být platný ne-namespaceovaný název dynamické proměnné (vyhněte se symbolům)",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Duplicate Bind Label": "Jiné pole již využívá tento popisek",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Binding": "Pole navázáno! Připravuji k navázání dalšího...",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Label Null Text": "<i>Zde napiště popisek identifikující pole k lokalizaci.<br>Př.: Object Name.Main Menu.Title</i>",
+    "Earthenworks.Translation Tool.Export.Title": "Exportovat lokalizační dokument",
+    "Earthenworks.Translation Tool.Export.Button": "Exportovat aktuální lokalizaci<br><sup>Vyžaduje webový požadavek</sup>",
+    "Earthenworks.Translation Tool.Export.Field Null Text": "Odsud zkopírujte šablonu",
+    "Earthenworks.Translation Tool.Export.Instructions": "Zašlete celý dokument překladatelům.<br>Dvojklikem vyberte celý dokument.",
+    "Earthenworks.Translation Tool.Import.Title": "Importovat lokalizaci z dokumentu",
+    "Earthenworks.Translation Tool.Import.Instructions": "Vložte celý dokument<br>Poškozené dokumenty jsou ignorovány.",
+    "Earthenworks.Translation Tool.Import.Button": "Importovat lokalizaci<br><sup>Vyžaduje webový požadavek</sup>",
+    "Earthenworks.Translation Tool.Import.Field Null Text": "Vložte vyplněný překladový dokument",
+    "Earthenworks.Translation Tool.Help.Title": "Instrukce",
+    "Earthenworks.Translation Tool.Help.Body": "Otevřte inspektor na rootu objektu k lokalizaci.\n\nPřetáhněte root slot do nástroje a nainstalujte překladač, pokud je to potřeba.\n\nZkontrolujte zda se výchozí lokalizace objektu shoduje s originálním jazykem objektu.\n\nPopište a driveujte veškerá pole k lokalizaci.\n\nPoužijte <i>Zobrazit driveovaná pole</i> k nalezení vynechaných polí.\n\nPro modifikaci driveovaného pole, aktualizujte dynamickou proměnnou se stejným popiskem v:\n<b>  <i>Object Root</i>\n    Translator\n      Translation Tables\n        <i>Locale to update</i></b>"
+  }
+}
