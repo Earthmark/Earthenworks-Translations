@@ -4,5 +4,31 @@
     "Shadow Panther"
   ],
   "messages": {
+    "Earthenworks.Translation Tool.Title": "Инструмент локализации",
+    "Earthenworks.Translation Tool.Pick Slot.Title": "Выберите слот для локализации",
+    "Earthenworks.Translation Tool.Pick Slot.No Slot Picked Null Text": "<i>Вставьте корневой слот объекта сюда</i>",
+    "Earthenworks.Translation Tool.Pick Slot.Default Locale Title": "Локаль по умолчанию",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Show Driven Fields": "Показать управляемые поля",
+    "Earthenworks.Translation Tool.Pick Slot.Install Translator Button": "Установить переводчик",
+    "Earthenworks.Translation Tool.Pick Slot.Status.No Object Selected": "Не выбран объект для локализации",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Translator Not Installed": "На объект не установлен переводчик",
+    "Earthenworks.Translation Tool.Pick Slot.Status.Translator Status": "{0} поле(й) привязано<br>{1} установленных локалей",
+    "Earthenworks.Translation Tool.Bind Fields.Title": "Подпишите и привяжите строковые поля в объекте",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Slot Selected": "Выберите слот для локализации и установите переводчик чтобы начать привязку полей.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Drop Slot To Bind": "Перетащите строковое поле из инспектора на иконку привязки чтобы управлять им.",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Invalid Name": "Метка должна быть корректным названием динамической переменной без простраиства именования (избегайте символов)",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Duplicate Bind Label": "Другое поле уже использует эту метку",
+    "Earthenworks.Translation Tool.Bind Fields.Status.Binding": "Поле привязано! Готовимся привязать следующее...",
+    "Earthenworks.Translation Tool.Bind Fields.Status.No Label Null Text": "<i>введите метку для локализуемого поля.<br>Пример: Object Name.Main Menu.Title</i>",
+    "Earthenworks.Translation Tool.Export.Title": "Экспортировать документ локализации",
+    "Earthenworks.Translation Tool.Export.Button": "Экспортировать текущую локаль<br><sup>Требуется веб запрос</sup>",
+    "Earthenworks.Translation Tool.Export.Field Null Text": "Скопировать шаблон отсюда",
+    "Earthenworks.Translation Tool.Export.Instructions": "Послать весь документ переводчикам.<br>Щелкните дважды чтобы выбрать весь документ.",
+    "Earthenworks.Translation Tool.Import.Title": "Импортировать локаль из документа",
+    "Earthenworks.Translation Tool.Import.Instructions": "Вставить весь документ<br>Некорректные документы игнорируются.",
+    "Earthenworks.Translation Tool.Import.Button": "Импортировать локаль<br><sup>Требуется веб запрос</sup>",
+    "Earthenworks.Translation Tool.Import.Field Null Text": "Вставить заполненный документ перевода",
+    "Earthenworks.Translation Tool.Help.Title": "Инструкции",
+    "Earthenworks.Translation Tool.Help.Body": "Найдите в инспекторе корневой слот объекта для локализации.\n\nПеретащите корневой слот в инструмент и установите переводчик если требуется.\n\nПроверьте что локаль по умолчанию на объекте совпадает с оригинальным языком объекта.\n\nПодпишите и привяжите каждое поле, которое должно быть локализовано.\n\nИспользуйте  <i>Показать управляемые поля</i> чтобы найти пропущенные поля.\n\nЧтобы изменить управляемое поле, отредактируйте динамическую переменную с той же меткой в:\n<b>  <i>Корень объекта</i>\n    Translator\n      Translation Tables\n        <i>Локаль для изменения</i></b>"
   }
 }
