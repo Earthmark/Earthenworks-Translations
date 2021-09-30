@@ -1,0 +1,20 @@
+{
+  "localeCode": "en",
+  "authors": [
+    "Earthmark"
+  ],
+  "messages": {
+    "Controls Panel.Primary": "Primary",
+    "Controls Panel.Grab": "Grab",
+    "Controls Panel.Context Menu": "Context Menu",
+    "Controls Panel.Dashboard": "<color=#ffa400>Dash Menu</color>",
+    "Controls Panel.Ctx On Press Dash On Hold": "<color=#888888>Press:</color> Context Menu<br><color=#888888>Hold:</color> <color=#ffa400>Dash Menu</color>",
+    "Controls Panel.Move And rotate": "<color=#888888>Direction:</color> Move/Rotate",
+    "Controls Panel.Secondary": "Secondary",
+    "Controls Panel.On Press Secondary And Jump": "<color=#888888>Press:</color> Secondary/Jump",
+    "Controls Panel.On Press Jump": "<color=#888888>Press:</color> Jump",
+    "Controls Panel.Move": "Move",
+    "Controls Panel.Jump": "Jump",
+    "Controls Panel.Resize": "Resize"
+  }
+}
